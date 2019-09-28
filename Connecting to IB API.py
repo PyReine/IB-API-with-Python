@@ -8,7 +8,7 @@ ib.connect('127.0.0.1', 7496, clientId=2)
 # IMPORT STOCK DATA, taking Apple for example
 
 code = "AAPL"
-timeseries='1 D'
+timeseries='1 day'
 dur='3 M'
 
 contract = Stock(code, 'SMART','USD')
