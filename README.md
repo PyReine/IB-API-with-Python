@@ -7,4 +7,4 @@ https://interactivebrokers.github.io/tws-api/initial_setup.html
 The important step concerns enabling ActiveX and Socket Client. If you'd like to connect to the production account, you can use the socket port "7496" and if you choose to connect to the paper account, you can use the socket port "7497".
 The socket port is also needed later in the coding part to establish the connection between IB API and your IDE(integrated development environment):
 ib.connect('127.0.0.1', 7496, clientId=2)
-You can find the detaill of the code in the connecting to IB.py 
+You can find the detaill of the code in the connecting to IB API.py 
