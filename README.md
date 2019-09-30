@@ -9,4 +9,4 @@ The socket port is also needed later in the coding part to establish the connect
 ib.connect('127.0.0.1', 7496, clientId=2)
 You can find the detaill of the code in the connecting to IB API.py 
 
-Data reprocessing.py file provides the data manipulation using Pandas. The minites data extracted from IB don't contain the close price for each day. Thus, a manipulation is needed here to combien the dataset so that the prediction of the close price can be processed based on the minites data. The difficulty here is to match the dates between two sources. 
+Data reprocessing.py file provides the data manipulation using Pandas. The minutes data extracted from IB don't contain the close price for each day. Thus, a manipulation is needed here to combien the dataset so that the prediction of the close price can be processed based on the minites data. The difficulty here is to match the dates between two sources. 
