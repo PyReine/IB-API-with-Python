@@ -1,7 +1,7 @@
 # This file includes some useful codes of data preprocessing under Pandas
 
 # Indicate the parameters for the datafile to retreive
-code = "PDD"
+code = "AAPL"
 timeseries='30 mins'
 
 #define the directory of the historical data
